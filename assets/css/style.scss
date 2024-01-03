@@ -1,0 +1,23 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+a {
+    color: #226d00; /* 赤色に変更（例） */
+}
+
+/* リンクにホバーしたときのスタイル（オプション） */
+a:hover {
+color: #004400; /* 緑色に変更（例） */
+}
+
+p em {
+font-weight: bold;
+font-style: normal;
+font-size: 15px;
+color: #5c5c5c;
+}
+p span{
+font-size: 12px;
+}
